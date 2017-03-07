@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="#1f1f1f">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Add your Friends"
+           android:textSize="25sp"
+           android:fontFamily="sans-serif-light"/>
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/nf_phoneno"
+        android:layout_width="250dp"
+        android:hint="Mobile Number"
+        android:layout_height="30dp"
+        android:layout_below="@id/ll1"
+        android:textColorHint="#a9a9a9"
+        android:textColor="#000"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_edittextwhite"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="180dp"
+        />
+    <EditText
+        android:id="@+id/nf_pin"
+        android:hint="PIN"
+        android:textColorHint="#a9a9a9"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/nf_phoneno"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:textColor="#000"
+        android:inputType="number"
+        android:background="@drawable/rounded_edittextwhite"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+
+</RelativeLayout>

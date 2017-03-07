@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:colorPrimary">@color/primaryColor</item>
+        <item name="android:colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+
+    </style>
+    <style name="menu_labels_style">
+        <item name="android:background">@drawable/fab_label_back</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="fabbutton">
+        <item name="fab_colorNormal">#FF4081</item>
+        <item name="fab_colorPressed">#F50057</item>
+        <item name="fab_colorRipple">#C51162</item>
+    </style>
+
+</resources>

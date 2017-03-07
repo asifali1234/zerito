@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#3a3a3a"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.greycodes.zerito.VerifyActivity">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome back my friend.We've missed you."
+            android:gravity="center"
+            android:fontFamily="sans-serif-light"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#fff"
+            android:layout_marginTop="50dp"
+
+            android:id="@+id/tv_subhead"
+            android:textSize="20sp"/>
+
+
+
+      <EditText
+        android:id="@+id/ul_username"
+        android:layout_width="match_parent"
+        android:background="@drawable/rounded_edittextwhite"
+        android:textColor="#000"
+        android:hint="Name"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColorHint="@color/textsub"
+        android:layout_marginTop="20dp"
+
+        android:inputType="textPersonName"
+
+        android:layout_height="50dp" />
+    <ImageView
+        android:id="@+id/ul_submit"
+        android:background="@drawable/verifyselecter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:id="@+id/tvwrongno"
+
+        android:text="Not you? Tap here"
+
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+
+
+        android:textSize="15sp"/>
+
+
+
+
+
+
+</LinearLayout>
